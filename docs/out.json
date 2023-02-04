@@ -1,6 +1,6 @@
 {
 	"id": 0,
-	"name": "index.md - v1.0.0-beta.1",
+	"name": "index.md - v1.0.0",
 	"kind": 1,
 	"kindString": "Project",
 	"flags": {},
@@ -15,9 +15,9 @@
 			"sources": [
 				{
 					"fileName": "index.ts",
-					"line": 57,
+					"line": 51,
 					"character": 0,
-					"url": "https://github.com/saqqdy/load-yml/blob/6a7f7b9/src/index.ts#L57"
+					"url": "https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L51"
 				}
 			],
 			"type": {
@@ -38,9 +38,9 @@
 							"sources": [
 								{
 									"fileName": "index.ts",
-									"line": 59,
+									"line": 53,
 									"character": 1,
-									"url": "https://github.com/saqqdy/load-yml/blob/6a7f7b9/src/index.ts#L59"
+									"url": "https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L53"
 								}
 							],
 							"type": {
@@ -54,9 +54,9 @@
 									"sources": [
 										{
 											"fileName": "index.ts",
-											"line": 36,
+											"line": 30,
 											"character": 22,
-											"url": "https://github.com/saqqdy/load-yml/blob/6a7f7b9/src/index.ts#L36"
+											"url": "https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L30"
 										}
 									],
 									"signatures": [
@@ -167,9 +167,9 @@
 							"sources": [
 								{
 									"fileName": "index.ts",
-									"line": 60,
+									"line": 54,
 									"character": 1,
-									"url": "https://github.com/saqqdy/load-yml/blob/6a7f7b9/src/index.ts#L60"
+									"url": "https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L54"
 								}
 							],
 							"type": {
@@ -183,9 +183,9 @@
 									"sources": [
 										{
 											"fileName": "index.ts",
-											"line": 52,
+											"line": 46,
 											"character": 16,
-											"url": "https://github.com/saqqdy/load-yml/blob/6a7f7b9/src/index.ts#L52"
+											"url": "https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L46"
 										}
 									],
 									"signatures": [
@@ -288,9 +288,9 @@
 							"sources": [
 								{
 									"fileName": "index.ts",
-									"line": 58,
+									"line": 52,
 									"character": 1,
-									"url": "https://github.com/saqqdy/load-yml/blob/6a7f7b9/src/index.ts#L58"
+									"url": "https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L52"
 								}
 							],
 							"type": {
@@ -304,9 +304,9 @@
 									"sources": [
 										{
 											"fileName": "index.ts",
-											"line": 17,
+											"line": 11,
 											"character": 16,
-											"url": "https://github.com/saqqdy/load-yml/blob/6a7f7b9/src/index.ts#L17"
+											"url": "https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L11"
 										}
 									],
 									"signatures": [
@@ -388,9 +388,9 @@
 					"sources": [
 						{
 							"fileName": "index.ts",
-							"line": 57,
+							"line": 51,
 							"character": 15,
-							"url": "https://github.com/saqqdy/load-yml/blob/6a7f7b9/src/index.ts#L57"
+							"url": "https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L51"
 						}
 					]
 				}
@@ -405,9 +405,9 @@
 			"sources": [
 				{
 					"fileName": "index.ts",
-					"line": 36,
+					"line": 30,
 					"character": 22,
-					"url": "https://github.com/saqqdy/load-yml/blob/6a7f7b9/src/index.ts#L36"
+					"url": "https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L30"
 				}
 			],
 			"signatures": [
@@ -516,9 +516,9 @@
 			"sources": [
 				{
 					"fileName": "index.ts",
-					"line": 52,
+					"line": 46,
 					"character": 16,
-					"url": "https://github.com/saqqdy/load-yml/blob/6a7f7b9/src/index.ts#L52"
+					"url": "https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L46"
 				}
 			],
 			"signatures": [
@@ -619,9 +619,9 @@
 			"sources": [
 				{
 					"fileName": "index.ts",
-					"line": 17,
+					"line": 11,
 					"character": 16,
-					"url": "https://github.com/saqqdy/load-yml/blob/6a7f7b9/src/index.ts#L17"
+					"url": "https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L11"
 				}
 			],
 			"signatures": [
@@ -709,7 +709,7 @@
 			"fileName": "index.ts",
 			"line": 1,
 			"character": 0,
-			"url": "https://github.com/saqqdy/load-yml/blob/6a7f7b9/src/index.ts#L1"
+			"url": "https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L1"
 		}
 	]
 }

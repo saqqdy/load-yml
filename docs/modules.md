@@ -1,6 +1,6 @@
-[index.md - v1.0.0-beta.1](README.md) / Exports
+[index.md - v1.0.0](README.md) / Exports
 
-# index.md - v1.0.0-beta.1
+# index.md - v1.0.0
 
 ## Table of contents
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[index.ts:57](https://github.com/saqqdy/load-yml/blob/6a7f7b9/src/index.ts#L57)
+[index.ts:51](https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L51)
 
 ## Functions
 
@@ -61,7 +61,7 @@ const data = await loadYml('/path/of/yaml') // \{ "name": "saqqdy" \}
 
 #### Defined in
 
-[index.ts:36](https://github.com/saqqdy/load-yml/blob/6a7f7b9/src/index.ts#L36)
+[index.ts:30](https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L30)
 
 ---
 
@@ -92,7 +92,7 @@ const data = loadYmlSync('/path/of/yaml') // \{ "name": "saqqdy" \}
 
 #### Defined in
 
-[index.ts:52](https://github.com/saqqdy/load-yml/blob/6a7f7b9/src/index.ts#L52)
+[index.ts:46](https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L46)
 
 ---
 
@@ -116,4 +116,4 @@ parse yaml data
 
 #### Defined in
 
-[index.ts:17](https://github.com/saqqdy/load-yml/blob/6a7f7b9/src/index.ts#L17)
+[index.ts:11](https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L11)

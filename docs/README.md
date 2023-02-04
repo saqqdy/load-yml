@@ -1,4 +1,4 @@
-index.md - v1.0.0-beta.1 / [Exports](modules.md)
+index.md - v1.0.0 / [Exports](modules.md)
 
 <div style="text-align: center;" align="center">
 
@@ -37,11 +37,22 @@ $ yarn add load-yml
 
 ## Usage
 
+1. use `load-yml` in async mode
+
 ```js
 import { loadYml } from 'load-yml'
 
-// run loadYml
-loadYml('path')
+loadYml().then(path => {
+  console.log('result is: ', path) // { "name": "saqqdy" }
+})
+```
+
+2. use `load-yml` in sync mode
+
+```js
+import { loadYmlSync } from 'load-yml'
+
+console.log('result is: ', loadYmlSync()) // { "name": "saqqdy" }
 ```
 
 ## Support & Issues
