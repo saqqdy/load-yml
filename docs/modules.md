@@ -1,6 +1,6 @@
-[index.md - v1.0.0](README.md) / Exports
+[index.md - v1.1.0](README.md) / Exports
 
-# index.md - v1.0.0
+# index.md - v1.1.0
 
 ## Table of contents
 
@@ -13,6 +13,7 @@
 - [loadYml](modules.md#loadyml)
 - [loadYmlSync](modules.md#loadymlsync)
 - [parseYml](modules.md#parseyml)
+- [stringifyYml](modules.md#stringifyyml)
 
 ## Variables
 
@@ -22,15 +23,16 @@
 
 #### Type declaration
 
-| Name          | Type                                                                       |
-| :------------ | :------------------------------------------------------------------------- |
-| `loadYml`     | (`path`: `string` \| `URL` \| `Buffer`) => `Promise`<`unknown` \| `null`\> |
-| `loadYmlSync` | (`path`: `string` \| `URL` \| `Buffer`) => `unknown` \| `null`             |
-| `parseYml`    | (`data`: `string`) => `unknown` \| `null`                                  |
+| Name           | Type                                                                       |
+| :------------- | :------------------------------------------------------------------------- |
+| `loadYml`      | (`path`: `string` \| `URL` \| `Buffer`) => `Promise`<`unknown` \| `null`\> |
+| `loadYmlSync`  | (`path`: `string` \| `URL` \| `Buffer`) => `unknown` \| `null`             |
+| `parseYml`     | (`data`: `string`, `options?`: `LoadOptions`) => `unknown` \| `null`       |
+| `stringifyYml` | <T\>(`data`: `T`, `options?`: `DumpOptions`) => `string` \| `null`         |
 
 #### Defined in
 
-[index.ts:51](https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L51)
+[index.ts:75](https://github.com/saqqdy/load-yml/blob/41bfc41/src/index.ts#L75)
 
 ## Functions
 
@@ -61,7 +63,7 @@ const data = await loadYml('/path/of/yaml') // \{ "name": "saqqdy" \}
 
 #### Defined in
 
-[index.ts:30](https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L30)
+[index.ts:48](https://github.com/saqqdy/load-yml/blob/41bfc41/src/index.ts#L48)
 
 ---
 
@@ -92,21 +94,22 @@ const data = loadYmlSync('/path/of/yaml') // \{ "name": "saqqdy" \}
 
 #### Defined in
 
-[index.ts:46](https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L46)
+[index.ts:67](https://github.com/saqqdy/load-yml/blob/41bfc41/src/index.ts#L67)
 
 ---
 
 ### parseYml
 
-▸ **parseYml**(`data`): `unknown` \| `null`
+▸ **parseYml**(`data`, `options?`): `unknown` \| `null`
 
 parse yaml data
 
 #### Parameters
 
-| Name   | Type     | Description |
-| :----- | :------- | :---------- |
-| `data` | `string` | file path   |
+| Name       | Type          | Description               |
+| :--------- | :------------ | :------------------------ |
+| `data`     | `string`      | file path                 |
+| `options?` | `LoadOptions` | load options: LoadOptions |
 
 #### Returns
 
@@ -116,4 +119,35 @@ parse yaml data
 
 #### Defined in
 
-[index.ts:11](https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L11)
+[index.ts:12](https://github.com/saqqdy/load-yml/blob/41bfc41/src/index.ts#L12)
+
+---
+
+### stringifyYml
+
+▸ **stringifyYml**<`T`\>(`data`, `options?`): `string` \| `null`
+
+stringify yaml data
+
+#### Type parameters
+
+| Name |
+| :--- |
+| `T`  |
+
+#### Parameters
+
+| Name       | Type          | Description               |
+| :--------- | :------------ | :------------------------ |
+| `data`     | `T`           | file path                 |
+| `options?` | `DumpOptions` | dump options: DumpOptions |
+
+#### Returns
+
+`string` \| `null`
+
+- result
+
+#### Defined in
+
+[index.ts:28](https://github.com/saqqdy/load-yml/blob/41bfc41/src/index.ts#L28)

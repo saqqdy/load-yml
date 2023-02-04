@@ -1,17 +1,35 @@
 import { existsSync, promises, readFileSync } from 'fs'
 import stripBom from 'strip-bom'
-import yaml from 'js-yaml'
+import { type DumpOptions, type LoadOptions, dump, load } from 'js-yaml'
 
 /**
  * parse yaml data
  *
  * @param data - file path
+ * @param options - load options: LoadOptions
  * @returns - result
  */
-export function parseYml(data: string): unknown | null {
+export function parseYml(data: string, options?: LoadOptions): unknown | null {
 	try {
-		return yaml.load(stripBom(data))
-	} catch {
+		return load(stripBom(data), options)
+	} catch (err: any) {
+		console.error(err)
+		return null
+	}
+}
+
+/**
+ * stringify yaml data
+ *
+ * @param data - file path
+ * @param options - dump options: DumpOptions
+ * @returns - result
+ */
+export function stringifyYml<T>(data: T, options?: DumpOptions): string | null {
+	try {
+		return dump(data, options)
+	} catch (err: any) {
+		console.error(err)
 		return null
 	}
 }
@@ -28,7 +46,10 @@ export function parseYml(data: string): unknown | null {
  * @returns - result
  */
 export async function loadYml(path: string | Buffer | URL): Promise<unknown | null> {
-	if (!existsSync(path)) return null
+	if (!existsSync(path)) {
+		console.error(`${path} is not exists`)
+		return null
+	}
 	return parseYml(await promises.readFile(path, 'utf8'))
 }
 
@@ -44,12 +65,16 @@ export async function loadYml(path: string | Buffer | URL): Promise<unknown | nu
  * @returns - result
  */
 export function loadYmlSync(path: string | Buffer | URL): unknown | null {
-	if (!existsSync(path)) return null
+	if (!existsSync(path)) {
+		console.error(`${path} is not exists`)
+		return null
+	}
 	return parseYml(readFileSync(path, 'utf8'))
 }
 
 export default {
 	parseYml,
+	stringifyYml,
 	loadYml,
 	loadYmlSync
 }

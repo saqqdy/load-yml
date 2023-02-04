@@ -1,7 +1,7 @@
 {
 	"name": "load-yml",
 	"description": "Read and parse a .yaml or .yml file",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"packageManager": "pnpm@7.26.1",
 	"main": "./dist/index.cjs",
 	"module": "./dist/index.mjs",
@@ -43,7 +43,6 @@
 		"prettier": "prettier --write \"**/*.{js,ts,jsx,tsx,yml,json,md}\""
 	},
 	"dependencies": {
-		"@types/js-yaml": "^4.0.5",
 		"core-js": "^3.27.2",
 		"js-yaml": "^4.1.0",
 		"strip-bom": "^5.0.0"
@@ -60,8 +59,10 @@
 		"@rollup/plugin-node-resolve": "^15.0.1",
 		"@rollup/plugin-typescript": "^11.0.0",
 		"@types/jest": "^29.4.0",
+		"@types/js-yaml": "^4.0.5",
 		"@types/node": "^18.11.18",
 		"chalk": "^5.2.0",
+		"coveralls": "^3.1.1",
 		"cross-env": "^7.0.3",
 		"eslint": "^8.33.0",
 		"fast-glob": "^3.2.12",

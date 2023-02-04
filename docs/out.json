@@ -1,13 +1,13 @@
 {
 	"id": 0,
-	"name": "index.md - v1.0.0",
+	"name": "index.md - v1.1.0",
 	"kind": 1,
 	"kindString": "Project",
 	"flags": {},
 	"originalName": "index.md",
 	"children": [
 		{
-			"id": 10,
+			"id": 16,
 			"name": "default",
 			"kind": 32,
 			"kindString": "Variable",
@@ -15,22 +15,22 @@
 			"sources": [
 				{
 					"fileName": "index.ts",
-					"line": 51,
+					"line": 75,
 					"character": 0,
-					"url": "https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L51"
+					"url": "https://github.com/saqqdy/load-yml/blob/41bfc41/src/index.ts#L75"
 				}
 			],
 			"type": {
 				"type": "reflection",
 				"declaration": {
-					"id": 11,
+					"id": 17,
 					"name": "__type",
 					"kind": 65536,
 					"kindString": "Type literal",
 					"flags": {},
 					"children": [
 						{
-							"id": 16,
+							"id": 29,
 							"name": "loadYml",
 							"kind": 1024,
 							"kindString": "Property",
@@ -38,15 +38,15 @@
 							"sources": [
 								{
 									"fileName": "index.ts",
-									"line": 53,
+									"line": 78,
 									"character": 1,
-									"url": "https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L53"
+									"url": "https://github.com/saqqdy/load-yml/blob/41bfc41/src/index.ts#L78"
 								}
 							],
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 17,
+									"id": 30,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -54,14 +54,14 @@
 									"sources": [
 										{
 											"fileName": "index.ts",
-											"line": 30,
+											"line": 48,
 											"character": 22,
-											"url": "https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L30"
+											"url": "https://github.com/saqqdy/load-yml/blob/41bfc41/src/index.ts#L48"
 										}
 									],
 									"signatures": [
 										{
-											"id": 18,
+											"id": 31,
 											"name": "__type",
 											"kind": 4096,
 											"kindString": "Call signature",
@@ -96,7 +96,7 @@
 											},
 											"parameters": [
 												{
-													"id": 19,
+													"id": 32,
 													"name": "path",
 													"kind": 32768,
 													"kindString": "Parameter",
@@ -159,7 +159,7 @@
 							}
 						},
 						{
-							"id": 20,
+							"id": 33,
 							"name": "loadYmlSync",
 							"kind": 1024,
 							"kindString": "Property",
@@ -167,15 +167,15 @@
 							"sources": [
 								{
 									"fileName": "index.ts",
-									"line": 54,
+									"line": 79,
 									"character": 1,
-									"url": "https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L54"
+									"url": "https://github.com/saqqdy/load-yml/blob/41bfc41/src/index.ts#L79"
 								}
 							],
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 21,
+									"id": 34,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -183,14 +183,14 @@
 									"sources": [
 										{
 											"fileName": "index.ts",
-											"line": 46,
+											"line": 67,
 											"character": 16,
-											"url": "https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L46"
+											"url": "https://github.com/saqqdy/load-yml/blob/41bfc41/src/index.ts#L67"
 										}
 									],
 									"signatures": [
 										{
-											"id": 22,
+											"id": 35,
 											"name": "__type",
 											"kind": 4096,
 											"kindString": "Call signature",
@@ -225,7 +225,7 @@
 											},
 											"parameters": [
 												{
-													"id": 23,
+													"id": 36,
 													"name": "path",
 													"kind": 32768,
 													"kindString": "Parameter",
@@ -280,7 +280,7 @@
 							}
 						},
 						{
-							"id": 12,
+							"id": 18,
 							"name": "parseYml",
 							"kind": 1024,
 							"kindString": "Property",
@@ -288,15 +288,15 @@
 							"sources": [
 								{
 									"fileName": "index.ts",
-									"line": 52,
+									"line": 76,
 									"character": 1,
-									"url": "https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L52"
+									"url": "https://github.com/saqqdy/load-yml/blob/41bfc41/src/index.ts#L76"
 								}
 							],
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 13,
+									"id": 19,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -304,14 +304,14 @@
 									"sources": [
 										{
 											"fileName": "index.ts",
-											"line": 11,
+											"line": 12,
 											"character": 16,
-											"url": "https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L11"
+											"url": "https://github.com/saqqdy/load-yml/blob/41bfc41/src/index.ts#L12"
 										}
 									],
 									"signatures": [
 										{
-											"id": 14,
+											"id": 20,
 											"name": "__type",
 											"kind": 4096,
 											"kindString": "Call signature",
@@ -337,7 +337,7 @@
 											},
 											"parameters": [
 												{
-													"id": 15,
+													"id": 21,
 													"name": "data",
 													"kind": 32768,
 													"kindString": "Parameter",
@@ -353,6 +353,29 @@
 													"type": {
 														"type": "intrinsic",
 														"name": "string"
+													}
+												},
+												{
+													"id": 22,
+													"name": "options",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {
+														"isOptional": true
+													},
+													"comment": {
+														"summary": [
+															{
+																"kind": "text",
+																"text": "load options: LoadOptions"
+															}
+														]
+													},
+													"type": {
+														"type": "reference",
+														"name": "LoadOptions",
+														"qualifiedName": "LoadOptions",
+														"package": "@types/js-yaml"
 													}
 												}
 											],
@@ -373,31 +396,160 @@
 									]
 								}
 							}
+						},
+						{
+							"id": 23,
+							"name": "stringifyYml",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "index.ts",
+									"line": 77,
+									"character": 1,
+									"url": "https://github.com/saqqdy/load-yml/blob/41bfc41/src/index.ts#L77"
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 24,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "index.ts",
+											"line": 28,
+											"character": 16,
+											"url": "https://github.com/saqqdy/load-yml/blob/41bfc41/src/index.ts#L28"
+										}
+									],
+									"signatures": [
+										{
+											"id": 25,
+											"name": "__type",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "stringify yaml data"
+													}
+												],
+												"blockTags": [
+													{
+														"tag": "@returns",
+														"content": [
+															{
+																"kind": "text",
+																"text": "- result"
+															}
+														]
+													}
+												]
+											},
+											"typeParameter": [
+												{
+													"id": 26,
+													"name": "T",
+													"kind": 131072,
+													"kindString": "Type parameter",
+													"flags": {}
+												}
+											],
+											"parameters": [
+												{
+													"id": 27,
+													"name": "data",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {},
+													"comment": {
+														"summary": [
+															{
+																"kind": "text",
+																"text": "file path"
+															}
+														]
+													},
+													"type": {
+														"type": "reference",
+														"id": 7,
+														"name": "T"
+													}
+												},
+												{
+													"id": 28,
+													"name": "options",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {
+														"isOptional": true
+													},
+													"comment": {
+														"summary": [
+															{
+																"kind": "text",
+																"text": "dump options: DumpOptions"
+															}
+														]
+													},
+													"type": {
+														"type": "reference",
+														"name": "DumpOptions",
+														"qualifiedName": "DumpOptions",
+														"package": "@types/js-yaml"
+													}
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "literal",
+														"value": null
+													}
+												]
+											}
+										}
+									]
+								}
+							}
 						}
 					],
 					"groups": [
 						{
 							"title": "Properties",
 							"children": [
-								16,
-								20,
-								12
+								29,
+								33,
+								18,
+								23
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "index.ts",
-							"line": 51,
+							"line": 75,
 							"character": 15,
-							"url": "https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L51"
+							"url": "https://github.com/saqqdy/load-yml/blob/41bfc41/src/index.ts#L75"
 						}
 					]
 				}
 			}
 		},
 		{
-			"id": 4,
+			"id": 10,
 			"name": "loadYml",
 			"kind": 64,
 			"kindString": "Function",
@@ -405,14 +557,14 @@
 			"sources": [
 				{
 					"fileName": "index.ts",
-					"line": 30,
+					"line": 48,
 					"character": 22,
-					"url": "https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L30"
+					"url": "https://github.com/saqqdy/load-yml/blob/41bfc41/src/index.ts#L48"
 				}
 			],
 			"signatures": [
 				{
-					"id": 5,
+					"id": 11,
 					"name": "loadYml",
 					"kind": 4096,
 					"kindString": "Call signature",
@@ -447,7 +599,7 @@
 					},
 					"parameters": [
 						{
-							"id": 6,
+							"id": 12,
 							"name": "path",
 							"kind": 32768,
 							"kindString": "Parameter",
@@ -508,7 +660,7 @@
 			]
 		},
 		{
-			"id": 7,
+			"id": 13,
 			"name": "loadYmlSync",
 			"kind": 64,
 			"kindString": "Function",
@@ -516,14 +668,14 @@
 			"sources": [
 				{
 					"fileName": "index.ts",
-					"line": 46,
+					"line": 67,
 					"character": 16,
-					"url": "https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L46"
+					"url": "https://github.com/saqqdy/load-yml/blob/41bfc41/src/index.ts#L67"
 				}
 			],
 			"signatures": [
 				{
-					"id": 8,
+					"id": 14,
 					"name": "loadYmlSync",
 					"kind": 4096,
 					"kindString": "Call signature",
@@ -558,7 +710,7 @@
 					},
 					"parameters": [
 						{
-							"id": 9,
+							"id": 15,
 							"name": "path",
 							"kind": 32768,
 							"kindString": "Parameter",
@@ -619,9 +771,9 @@
 			"sources": [
 				{
 					"fileName": "index.ts",
-					"line": 11,
+					"line": 12,
 					"character": 16,
-					"url": "https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L11"
+					"url": "https://github.com/saqqdy/load-yml/blob/41bfc41/src/index.ts#L12"
 				}
 			],
 			"signatures": [
@@ -669,6 +821,29 @@
 								"type": "intrinsic",
 								"name": "string"
 							}
+						},
+						{
+							"id": 4,
+							"name": "options",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isOptional": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "load options: LoadOptions"
+									}
+								]
+							},
+							"type": {
+								"type": "reference",
+								"name": "LoadOptions",
+								"qualifiedName": "LoadOptions",
+								"package": "@types/js-yaml"
+							}
 						}
 					],
 					"type": {
@@ -686,21 +861,132 @@
 					}
 				}
 			]
+		},
+		{
+			"id": 5,
+			"name": "stringifyYml",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "index.ts",
+					"line": 28,
+					"character": 16,
+					"url": "https://github.com/saqqdy/load-yml/blob/41bfc41/src/index.ts#L28"
+				}
+			],
+			"signatures": [
+				{
+					"id": 6,
+					"name": "stringifyYml",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "stringify yaml data"
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@returns",
+								"content": [
+									{
+										"kind": "text",
+										"text": "- result"
+									}
+								]
+							}
+						]
+					},
+					"typeParameter": [
+						{
+							"id": 7,
+							"name": "T",
+							"kind": 131072,
+							"kindString": "Type parameter",
+							"flags": {}
+						}
+					],
+					"parameters": [
+						{
+							"id": 8,
+							"name": "data",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "file path"
+									}
+								]
+							},
+							"type": {
+								"type": "reference",
+								"id": 7,
+								"name": "T"
+							}
+						},
+						{
+							"id": 9,
+							"name": "options",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {
+								"isOptional": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "dump options: DumpOptions"
+									}
+								]
+							},
+							"type": {
+								"type": "reference",
+								"name": "DumpOptions",
+								"qualifiedName": "DumpOptions",
+								"package": "@types/js-yaml"
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							},
+							{
+								"type": "literal",
+								"value": null
+							}
+						]
+					}
+				}
+			]
 		}
 	],
 	"groups": [
 		{
 			"title": "Variables",
 			"children": [
-				10
+				16
 			]
 		},
 		{
 			"title": "Functions",
 			"children": [
-				4,
-				7,
-				1
+				10,
+				13,
+				1,
+				5
 			]
 		}
 	],
@@ -709,7 +995,7 @@
 			"fileName": "index.ts",
 			"line": 1,
 			"character": 0,
-			"url": "https://github.com/saqqdy/load-yml/blob/e93fb8c/src/index.ts#L1"
+			"url": "https://github.com/saqqdy/load-yml/blob/41bfc41/src/index.ts#L1"
 		}
 	]
 }
