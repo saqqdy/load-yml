@@ -1,0 +1,220 @@
+{
+	"id": 0,
+	"name": "index.md - v1.0.0-beta.1",
+	"kind": 1,
+	"kindString": "Project",
+	"flags": {},
+	"originalName": "index.md",
+	"children": [
+		{
+			"id": 1,
+			"name": "loadYml",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "index.ts",
+					"line": 31,
+					"character": 22
+				}
+			],
+			"signatures": [
+				{
+					"id": 2,
+					"name": "loadYml",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "load .yml or .yaml"
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@returns",
+								"content": [
+									{
+										"kind": "text",
+										"text": "- result"
+									}
+								]
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 3,
+							"name": "path",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "file path"
+									}
+								]
+							},
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"name": "URL",
+										"qualifiedName": "URL",
+										"package": "typescript"
+									},
+									{
+										"type": "reference",
+										"name": "Buffer",
+										"qualifiedName": "global.Buffer",
+										"package": "@types/node"
+									}
+								]
+							}
+						}
+					],
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "unknown"
+									},
+									{
+										"type": "literal",
+										"value": null
+									}
+								]
+							}
+						],
+						"name": "Promise",
+						"qualifiedName": "Promise",
+						"package": "typescript"
+					}
+				}
+			]
+		},
+		{
+			"id": 4,
+			"name": "loadYmlSync",
+			"kind": 64,
+			"kindString": "Function",
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "index.ts",
+					"line": 42,
+					"character": 16
+				}
+			],
+			"signatures": [
+				{
+					"id": 5,
+					"name": "loadYmlSync",
+					"kind": 4096,
+					"kindString": "Call signature",
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "load .yml or .yaml sync"
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@returns",
+								"content": [
+									{
+										"kind": "text",
+										"text": "- result"
+									}
+								]
+							}
+						]
+					},
+					"parameters": [
+						{
+							"id": 6,
+							"name": "path",
+							"kind": 32768,
+							"kindString": "Parameter",
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "file path"
+									}
+								]
+							},
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"name": "URL",
+										"qualifiedName": "URL",
+										"package": "typescript"
+									},
+									{
+										"type": "reference",
+										"name": "Buffer",
+										"qualifiedName": "global.Buffer",
+										"package": "@types/node"
+									}
+								]
+							}
+						}
+					],
+					"type": {
+						"type": "union",
+						"types": [
+							{
+								"type": "intrinsic",
+								"name": "unknown"
+							},
+							{
+								"type": "literal",
+								"value": null
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Functions",
+			"children": [
+				1,
+				4
+			]
+		}
+	],
+	"sources": [
+		{
+			"fileName": "index.ts",
+			"line": 1,
+			"character": 0
+		}
+	]
+}
