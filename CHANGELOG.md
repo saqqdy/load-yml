@@ -1,5 +1,9 @@
 # Change logs
 
+## 2023.02.04 v1.1.1
+
+1. fix export types
+
 ## 2023.02.04 v1.1.0
 
 1. export `parseYml` & `stringifyYml`
