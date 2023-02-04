@@ -35,13 +35,6 @@ $ yarn add load-yml
 
 ## Usage
 
-```js
-import { loadYml } from 'load-yml'
-
-// run loadYml
-loadYml('path')
-```
-
 1. use `load-yml` in async mode
 
 ```js
