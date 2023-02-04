@@ -8,7 +8,6 @@ Read and parse a .yaml or .yml file
 [![Codacy Badge][codacy-image]][codacy-url]
 [![Test coverage][codecov-image]][codecov-url]
 [![npm download][download-image]][download-url]
-[![gzip][gzip-image]][gzip-url]
 [![License][license-image]][license-url]
 
 [![Sonar][sonar-image]][sonar-url]
@@ -37,10 +36,28 @@ $ yarn add load-yml
 ## Usage
 
 ```js
-import { loadYML } from 'load-yml'
+import { loadYml } from 'load-yml'
 
-// run loadYML
-loadYML('path')
+// run loadYml
+loadYml('path')
+```
+
+1. use `load-yml` in async mode
+
+```js
+import { loadYml } from 'load-yml'
+
+loadYml().then(path => {
+  console.log('result is: ', path) // { "name": "saqqdy" }
+})
+```
+
+2. use `load-yml` in sync mode
+
+```js
+import { loadYmlSync } from 'load-yml'
+
+console.log('result is: ', loadYmlSync()) // { "name": "saqqdy" }
 ```
 
 ## Support & Issues
@@ -59,8 +76,6 @@ Please open an issue [here](https://github.com/saqqdy/load-yml/issues).
 [codecov-url]: https://codecov.io/github/saqqdy/load-yml?branch=master
 [download-image]: https://img.shields.io/npm/dm/load-yml.svg?style=flat-square
 [download-url]: https://npmjs.org/package/load-yml
-[gzip-image]: http://img.badgesize.io/https://unpkg.com/load-yml/dist/index.mjs?compression=gzip&label=gzip%20size:%20JS
-[gzip-url]: http://img.badgesize.io/https://unpkg.com/load-yml/dist/index.mjs?compression=gzip&label=gzip%20size:%20JS
 [license-image]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-url]: LICENSE
 [sonar-image]: https://sonarcloud.io/api/project_badges/quality_gate?project=saqqdy_load-yml
