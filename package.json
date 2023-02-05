@@ -34,6 +34,7 @@
 		"pub": "tscjs scripts/publish",
 		"unpub": "tscjs scripts/unpublish",
 		"sync": "tscjs scripts/sync",
+		"workflow:publish-test": "zx scripts/workflow.mjs",
 		"clean": "rimraf dist",
 		"dist": "run-s clean build",
 		"test-unit": "jest --filter ./scripts/filter-unit.js",

@@ -46,7 +46,7 @@ jobs:
       - name: Gen .npmrc
         run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" >> ./.npmrc
 
-      - run: pnpm pub
+      - run: pnpm pub --test
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
