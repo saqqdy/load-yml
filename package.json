@@ -79,7 +79,8 @@
 		"tsnd": "^1.1.0",
 		"typedoc": "^0.23.24",
 		"typedoc-plugin-markdown": "^3.14.0",
-		"typescript": "^4.9.5"
+		"typescript": "^4.9.5",
+		"zx": "^7.1.1"
 	},
 	"peerDependencies": {
 		"core-js": ">= 3"
