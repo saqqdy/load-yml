@@ -1,7 +1,7 @@
 {
 	"name": "load-yml",
 	"description": "Read and parse a .yaml or .yml file",
-	"version": "1.1.1",
+	"version": "1.2.0",
 	"packageManager": "pnpm@7.26.1",
 	"main": "./dist/index.cjs",
 	"module": "./dist/index.mjs",
@@ -45,8 +45,7 @@
 	"dependencies": {
 		"@types/js-yaml": "^4.0.5",
 		"core-js": "^3.27.2",
-		"js-yaml": "^4.1.0",
-		"strip-bom": "^5.0.0"
+		"js-yaml": "^4.1.0"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.20.12",

@@ -1,5 +1,10 @@
 # Change logs
 
+## 2023.02.04 v1.2.0
+
+1. drop un-used pkg
+2. fix dependencies
+
 ## 2023.02.04 v1.1.1
 
 1. fix export types

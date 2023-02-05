@@ -30,7 +30,6 @@ specifiers:
   rollup: ^3.13.0
   rollup-plugin-filesize: ^9.1.2
   rollup-plugin-visualizer: ^5.9.0
-  strip-bom: ^5.0.0
   ts-jest: ^29.0.5
   tsnd: ^1.1.0
   typedoc: ^0.23.24
@@ -41,7 +40,6 @@ dependencies:
   '@types/js-yaml': 4.0.5
   core-js: 3.27.2
   js-yaml: 4.1.0
-  strip-bom: 5.0.0
 
 devDependencies:
   '@babel/core': 7.20.12
@@ -6969,6 +6967,7 @@ packages:
   /strip-bom/5.0.0:
     resolution: {integrity: sha512-p+byADHF7SzEcVnLvc/r3uognM1hUhObuHXxJcgLCfD194XAkaLbjq3Wzb0N5G2tgIjH0dgT708Z51QxMeu60A==}
     engines: {node: '>=12'}
+    dev: true
 
   /strip-final-newline/2.0.0:
     resolution: {integrity: sha512-BrpvfNAE3dcvq7ll3xVumzjKjZQ5tI1sEUIKr3Uoks0XUl45St3FlatVqef9prk4jRDzhW6WZg+3bk93y6pLjA==}

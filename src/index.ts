@@ -1,6 +1,21 @@
 import { existsSync, promises, readFileSync } from 'fs'
-import stripBom from 'strip-bom'
 import { type DumpOptions, type LoadOptions, dump, load } from 'js-yaml'
+
+/**
+ * Strip UTF-8 byte order mark (BOM) from a string
+ *
+ * @param data - string
+ * @returns - result
+ */
+function stripBom(data: string): string {
+	if (typeof data !== 'string') throw new TypeError(`Expected a string, got ${typeof data}`)
+
+	// Catches EFBBBF (UTF-8 BOM) because the buffer-to-string
+	// conversion translates it to FEFF (UTF-16 BOM).
+	if (data.charCodeAt(0) === 0xfeff) return (data as string).slice(1)
+
+	return data
+}
 
 /**
  * parse yaml data
