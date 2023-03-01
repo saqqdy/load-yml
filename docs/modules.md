@@ -1,6 +1,6 @@
-[index.md - v1.2.0](README.md) / Exports
+[index.md - v1.3.0](README.md) / Exports
 
-# index.md - v1.2.0
+# index.md - v1.3.0
 
 ## Table of contents
 
@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[index.ts:90](https://github.com/saqqdy/load-yml/blob/7a001f8/src/index.ts#L90)
+[index.ts:90](https://github.com/saqqdy/load-yml/blob/45fc2db/src/index.ts#L90)
 
 ## Functions
 
@@ -63,7 +63,7 @@ const data = await loadYml('/path/of/yaml') // \{ "name": "saqqdy" \}
 
 #### Defined in
 
-[index.ts:63](https://github.com/saqqdy/load-yml/blob/7a001f8/src/index.ts#L63)
+[index.ts:63](https://github.com/saqqdy/load-yml/blob/45fc2db/src/index.ts#L63)
 
 ---
 
@@ -94,7 +94,7 @@ const data = loadYmlSync('/path/of/yaml') // \{ "name": "saqqdy" \}
 
 #### Defined in
 
-[index.ts:82](https://github.com/saqqdy/load-yml/blob/7a001f8/src/index.ts#L82)
+[index.ts:82](https://github.com/saqqdy/load-yml/blob/45fc2db/src/index.ts#L82)
 
 ---
 
@@ -119,7 +119,7 @@ parse yaml data
 
 #### Defined in
 
-[index.ts:27](https://github.com/saqqdy/load-yml/blob/7a001f8/src/index.ts#L27)
+[index.ts:27](https://github.com/saqqdy/load-yml/blob/45fc2db/src/index.ts#L27)
 
 ---
 
@@ -150,4 +150,4 @@ stringify yaml data
 
 #### Defined in
 
-[index.ts:43](https://github.com/saqqdy/load-yml/blob/7a001f8/src/index.ts#L43)
+[index.ts:43](https://github.com/saqqdy/load-yml/blob/45fc2db/src/index.ts#L43)

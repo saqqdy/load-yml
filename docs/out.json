@@ -1,6 +1,6 @@
 {
 	"id": 0,
-	"name": "index.md - v1.2.0",
+	"name": "index.md - v1.3.0",
 	"kind": 1,
 	"kindString": "Project",
 	"flags": {},
@@ -17,7 +17,7 @@
 					"fileName": "index.ts",
 					"line": 90,
 					"character": 0,
-					"url": "https://github.com/saqqdy/load-yml/blob/7a001f8/src/index.ts#L90"
+					"url": "https://github.com/saqqdy/load-yml/blob/45fc2db/src/index.ts#L90"
 				}
 			],
 			"type": {
@@ -40,7 +40,7 @@
 									"fileName": "index.ts",
 									"line": 93,
 									"character": 1,
-									"url": "https://github.com/saqqdy/load-yml/blob/7a001f8/src/index.ts#L93"
+									"url": "https://github.com/saqqdy/load-yml/blob/45fc2db/src/index.ts#L93"
 								}
 							],
 							"type": {
@@ -56,7 +56,7 @@
 											"fileName": "index.ts",
 											"line": 63,
 											"character": 22,
-											"url": "https://github.com/saqqdy/load-yml/blob/7a001f8/src/index.ts#L63"
+											"url": "https://github.com/saqqdy/load-yml/blob/45fc2db/src/index.ts#L63"
 										}
 									],
 									"signatures": [
@@ -169,7 +169,7 @@
 									"fileName": "index.ts",
 									"line": 94,
 									"character": 1,
-									"url": "https://github.com/saqqdy/load-yml/blob/7a001f8/src/index.ts#L94"
+									"url": "https://github.com/saqqdy/load-yml/blob/45fc2db/src/index.ts#L94"
 								}
 							],
 							"type": {
@@ -185,7 +185,7 @@
 											"fileName": "index.ts",
 											"line": 82,
 											"character": 16,
-											"url": "https://github.com/saqqdy/load-yml/blob/7a001f8/src/index.ts#L82"
+											"url": "https://github.com/saqqdy/load-yml/blob/45fc2db/src/index.ts#L82"
 										}
 									],
 									"signatures": [
@@ -290,7 +290,7 @@
 									"fileName": "index.ts",
 									"line": 91,
 									"character": 1,
-									"url": "https://github.com/saqqdy/load-yml/blob/7a001f8/src/index.ts#L91"
+									"url": "https://github.com/saqqdy/load-yml/blob/45fc2db/src/index.ts#L91"
 								}
 							],
 							"type": {
@@ -306,7 +306,7 @@
 											"fileName": "index.ts",
 											"line": 27,
 											"character": 16,
-											"url": "https://github.com/saqqdy/load-yml/blob/7a001f8/src/index.ts#L27"
+											"url": "https://github.com/saqqdy/load-yml/blob/45fc2db/src/index.ts#L27"
 										}
 									],
 									"signatures": [
@@ -408,7 +408,7 @@
 									"fileName": "index.ts",
 									"line": 92,
 									"character": 1,
-									"url": "https://github.com/saqqdy/load-yml/blob/7a001f8/src/index.ts#L92"
+									"url": "https://github.com/saqqdy/load-yml/blob/45fc2db/src/index.ts#L92"
 								}
 							],
 							"type": {
@@ -424,7 +424,7 @@
 											"fileName": "index.ts",
 											"line": 43,
 											"character": 16,
-											"url": "https://github.com/saqqdy/load-yml/blob/7a001f8/src/index.ts#L43"
+											"url": "https://github.com/saqqdy/load-yml/blob/45fc2db/src/index.ts#L43"
 										}
 									],
 									"signatures": [
@@ -542,7 +542,7 @@
 							"fileName": "index.ts",
 							"line": 90,
 							"character": 15,
-							"url": "https://github.com/saqqdy/load-yml/blob/7a001f8/src/index.ts#L90"
+							"url": "https://github.com/saqqdy/load-yml/blob/45fc2db/src/index.ts#L90"
 						}
 					]
 				}
@@ -559,7 +559,7 @@
 					"fileName": "index.ts",
 					"line": 63,
 					"character": 22,
-					"url": "https://github.com/saqqdy/load-yml/blob/7a001f8/src/index.ts#L63"
+					"url": "https://github.com/saqqdy/load-yml/blob/45fc2db/src/index.ts#L63"
 				}
 			],
 			"signatures": [
@@ -670,7 +670,7 @@
 					"fileName": "index.ts",
 					"line": 82,
 					"character": 16,
-					"url": "https://github.com/saqqdy/load-yml/blob/7a001f8/src/index.ts#L82"
+					"url": "https://github.com/saqqdy/load-yml/blob/45fc2db/src/index.ts#L82"
 				}
 			],
 			"signatures": [
@@ -773,7 +773,7 @@
 					"fileName": "index.ts",
 					"line": 27,
 					"character": 16,
-					"url": "https://github.com/saqqdy/load-yml/blob/7a001f8/src/index.ts#L27"
+					"url": "https://github.com/saqqdy/load-yml/blob/45fc2db/src/index.ts#L27"
 				}
 			],
 			"signatures": [
@@ -873,7 +873,7 @@
 					"fileName": "index.ts",
 					"line": 43,
 					"character": 16,
-					"url": "https://github.com/saqqdy/load-yml/blob/7a001f8/src/index.ts#L43"
+					"url": "https://github.com/saqqdy/load-yml/blob/45fc2db/src/index.ts#L43"
 				}
 			],
 			"signatures": [
@@ -995,7 +995,7 @@
 			"fileName": "index.ts",
 			"line": 1,
 			"character": 0,
-			"url": "https://github.com/saqqdy/load-yml/blob/7a001f8/src/index.ts#L1"
+			"url": "https://github.com/saqqdy/load-yml/blob/45fc2db/src/index.ts#L1"
 		}
 	]
 }

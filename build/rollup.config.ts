@@ -8,10 +8,7 @@ import filesize from 'rollup-plugin-filesize'
 import pkg from '../package.json' assert { type: 'json' }
 import { banner, extensions, reporter } from './config'
 
-const externals = [
-	...Object.keys(pkg.dependencies || {}),
-	...Object.keys(pkg.devDependencies || {})
-]
+const externals = [...Object.keys(pkg.dependencies || {})]
 const nodeResolver = nodeResolve({
 	// Use the `package.json` "browser" field
 	browser: false,
@@ -52,7 +49,7 @@ const options: RollupOptions = {
 		filesize({ reporter })
 	],
 	external(id) {
-		return ['core-js', 'js-cool', 'regenerator-runtime', '@babel/runtime']
+		return ['js-cool', 'regenerator-runtime', '@babel/runtime']
 			.concat(externals)
 			.some(k => new RegExp('^' + k).test(id))
 	}

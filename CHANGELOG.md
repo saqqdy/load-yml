@@ -1,5 +1,12 @@
 # Change logs
 
+## 2023.03.01 v1.3.0
+
+1. fix export types
+2. downgrade to support node12.20
+3. move `core-js` from dependencies to devDependencies
+4. upgrade all packages
+
 ## 2023.02.04 v1.2.0
 
 1. drop un-used pkg

@@ -6,7 +6,7 @@ module.exports = {
 				loose: true,
 				modules: 'auto',
 				useBuiltIns: 'usage',
-				targets: 'node 14',
+				targets: 'node 12.20',
 				corejs: 3
 			}
 		],
