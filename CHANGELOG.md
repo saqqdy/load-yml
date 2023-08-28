@@ -1,5 +1,11 @@
 # Change logs
 
+## 2023.08.28 v1.4.0
+
+1. throw `ENOENT` error
+2. fix bugs
+3. upgrade all packages
+
 ## 2023.03.01 v1.3.0
 
 1. fix export types

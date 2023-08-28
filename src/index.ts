@@ -1,4 +1,4 @@
-import { existsSync, promises, readFileSync } from 'fs'
+import { promises, readFileSync } from 'fs'
 import { type DumpOptions, type LoadOptions, dump, load } from 'js-yaml'
 
 /**
@@ -24,13 +24,8 @@ function stripBom(data: string): string {
  * @param options - load options: LoadOptions
  * @returns - result
  */
-export function parseYml(data: string, options?: LoadOptions): unknown | null {
-	try {
+export function parseYml(data: string, options?: LoadOptions): unknown {
 		return load(stripBom(data), options)
-	} catch (err: any) {
-		console.error(err)
-		return null
-	}
 }
 
 /**
@@ -40,13 +35,8 @@ export function parseYml(data: string, options?: LoadOptions): unknown | null {
  * @param options - dump options: DumpOptions
  * @returns - result
  */
-export function stringifyYml<T>(data: T, options?: DumpOptions): string | null {
-	try {
+export function stringifyYml<T>(data: T, options?: DumpOptions): string {
 		return dump(data, options)
-	} catch (err: any) {
-		console.error(err)
-		return null
-	}
 }
 
 /**
@@ -60,11 +50,7 @@ export function stringifyYml<T>(data: T, options?: DumpOptions): string | null {
  * @param path - file path
  * @returns - result
  */
-export async function loadYml(path: string | Buffer | URL): Promise<unknown | null> {
-	if (!existsSync(path)) {
-		console.error(`${path} is not exists`)
-		return null
-	}
+export async function loadYml(path: string | Buffer | URL): Promise<unknown> {
 	return parseYml(await promises.readFile(path, 'utf8'))
 }
 
@@ -79,17 +65,8 @@ export async function loadYml(path: string | Buffer | URL): Promise<unknown | nu
  * @param path - file path
  * @returns - result
  */
-export function loadYmlSync(path: string | Buffer | URL): unknown | null {
-	if (!existsSync(path)) {
-		console.error(`${path} is not exists`)
-		return null
-	}
+export function loadYmlSync(path: string | Buffer | URL): unknown {
 	return parseYml(readFileSync(path, 'utf8'))
 }
 
-export default {
-	parseYml,
-	stringifyYml,
-	loadYml,
-	loadYmlSync
-}
+export const version = '__VERSION__' as string
