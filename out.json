@@ -1,0 +1,610 @@
+{
+	"id": 0,
+	"name": "index.md",
+	"variant": "project",
+	"kind": 1,
+	"flags": {},
+	"children": [
+		{
+			"id": 16,
+			"name": "version",
+			"variant": "declaration",
+			"kind": 32,
+			"flags": {
+				"isConst": true
+			},
+			"sources": [
+				{
+					"fileName": "index.ts",
+					"line": 72,
+					"character": 13,
+					"url": "https://github.com/saqqdy/load-yml/blob/0bac89f/src/index.ts#L72"
+				}
+			],
+			"type": {
+				"type": "intrinsic",
+				"name": "string"
+			},
+			"defaultValue": "..."
+		},
+		{
+			"id": 10,
+			"name": "loadYml",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "index.ts",
+					"line": 53,
+					"character": 22,
+					"url": "https://github.com/saqqdy/load-yml/blob/0bac89f/src/index.ts#L53"
+				}
+			],
+			"signatures": [
+				{
+					"id": 11,
+					"name": "loadYml",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "load .yml or .yaml"
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@example",
+								"content": [
+									{
+										"kind": "code",
+										"text": "```ts\nimport { loadYml } from 'load-yml'\nconst data = await loadYml('/path/of/yaml') // \\{ \"name\": \"saqqdy\" \\}\n```"
+									}
+								]
+							},
+							{
+								"tag": "@returns",
+								"content": [
+									{
+										"kind": "text",
+										"text": "- result"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "index.ts",
+							"line": 53,
+							"character": 22,
+							"url": "https://github.com/saqqdy/load-yml/blob/0bac89f/src/index.ts#L53"
+						}
+					],
+					"parameters": [
+						{
+							"id": 12,
+							"name": "path",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "file path"
+									}
+								]
+							},
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "node_modules/.pnpm/typescript@5.2.2/node_modules/typescript/lib/lib.dom.d.ts",
+											"qualifiedName": "URL"
+										},
+										"name": "URL",
+										"package": "typescript"
+									},
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "node_modules/.pnpm/@types+node@20.5.7/node_modules/@types/node/buffer.d.ts",
+											"qualifiedName": "__global.Buffer"
+										},
+										"name": "Buffer",
+										"package": "@types/node",
+										"qualifiedName": "__global.Buffer"
+									}
+								]
+							}
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "node_modules/.pnpm/typescript@5.2.2/node_modules/typescript/lib/lib.es5.d.ts",
+							"qualifiedName": "Promise"
+						},
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "unknown"
+							}
+						],
+						"name": "Promise",
+						"package": "typescript"
+					}
+				}
+			]
+		},
+		{
+			"id": 13,
+			"name": "loadYmlSync",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "index.ts",
+					"line": 68,
+					"character": 16,
+					"url": "https://github.com/saqqdy/load-yml/blob/0bac89f/src/index.ts#L68"
+				}
+			],
+			"signatures": [
+				{
+					"id": 14,
+					"name": "loadYmlSync",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "load .yml or .yaml sync"
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@example",
+								"content": [
+									{
+										"kind": "code",
+										"text": "```ts\nimport { loadYmlSync } from 'load-yml'\nconst data = loadYmlSync('/path/of/yaml') // \\{ \"name\": \"saqqdy\" \\}\n```"
+									}
+								]
+							},
+							{
+								"tag": "@returns",
+								"content": [
+									{
+										"kind": "text",
+										"text": "- result"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "index.ts",
+							"line": 68,
+							"character": 16,
+							"url": "https://github.com/saqqdy/load-yml/blob/0bac89f/src/index.ts#L68"
+						}
+					],
+					"parameters": [
+						{
+							"id": 15,
+							"name": "path",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "file path"
+									}
+								]
+							},
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "node_modules/.pnpm/typescript@5.2.2/node_modules/typescript/lib/lib.dom.d.ts",
+											"qualifiedName": "URL"
+										},
+										"name": "URL",
+										"package": "typescript"
+									},
+									{
+										"type": "reference",
+										"target": {
+											"sourceFileName": "node_modules/.pnpm/@types+node@20.5.7/node_modules/@types/node/buffer.d.ts",
+											"qualifiedName": "__global.Buffer"
+										},
+										"name": "Buffer",
+										"package": "@types/node",
+										"qualifiedName": "__global.Buffer"
+									}
+								]
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "unknown"
+					}
+				}
+			]
+		},
+		{
+			"id": 1,
+			"name": "parseYml",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "index.ts",
+					"line": 27,
+					"character": 16,
+					"url": "https://github.com/saqqdy/load-yml/blob/0bac89f/src/index.ts#L27"
+				}
+			],
+			"signatures": [
+				{
+					"id": 2,
+					"name": "parseYml",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "parse yaml data"
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@returns",
+								"content": [
+									{
+										"kind": "text",
+										"text": "- result"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "index.ts",
+							"line": 27,
+							"character": 16,
+							"url": "https://github.com/saqqdy/load-yml/blob/0bac89f/src/index.ts#L27"
+						}
+					],
+					"parameters": [
+						{
+							"id": 3,
+							"name": "data",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "file path"
+									}
+								]
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 4,
+							"name": "options",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {
+								"isOptional": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "load options: LoadOptions"
+									}
+								]
+							},
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "node_modules/.pnpm/@types+js-yaml@4.0.5/node_modules/@types/js-yaml/index.d.ts",
+									"qualifiedName": "LoadOptions"
+								},
+								"name": "LoadOptions",
+								"package": "@types/js-yaml"
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "unknown"
+					}
+				}
+			]
+		},
+		{
+			"id": 5,
+			"name": "stringifyYml",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "index.ts",
+					"line": 38,
+					"character": 16,
+					"url": "https://github.com/saqqdy/load-yml/blob/0bac89f/src/index.ts#L38"
+				}
+			],
+			"signatures": [
+				{
+					"id": 6,
+					"name": "stringifyYml",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "stringify yaml data"
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@returns",
+								"content": [
+									{
+										"kind": "text",
+										"text": "- result"
+									}
+								]
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "index.ts",
+							"line": 38,
+							"character": 16,
+							"url": "https://github.com/saqqdy/load-yml/blob/0bac89f/src/index.ts#L38"
+						}
+					],
+					"typeParameter": [
+						{
+							"id": 7,
+							"name": "T",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {}
+						}
+					],
+					"parameters": [
+						{
+							"id": 8,
+							"name": "data",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "file path"
+									}
+								]
+							},
+							"type": {
+								"type": "reference",
+								"target": -1,
+								"name": "T",
+								"refersToTypeParameter": true
+							}
+						},
+						{
+							"id": 9,
+							"name": "options",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {
+								"isOptional": true
+							},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "dump options: DumpOptions"
+									}
+								]
+							},
+							"type": {
+								"type": "reference",
+								"target": {
+									"sourceFileName": "node_modules/.pnpm/@types+js-yaml@4.0.5/node_modules/@types/js-yaml/index.d.ts",
+									"qualifiedName": "DumpOptions"
+								},
+								"name": "DumpOptions",
+								"package": "@types/js-yaml"
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "string"
+					}
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Variables",
+			"children": [
+				16
+			]
+		},
+		{
+			"title": "Functions",
+			"children": [
+				10,
+				13,
+				1,
+				5
+			]
+		}
+	],
+	"packageName": "load-yml",
+	"packageVersion": "1.4.0",
+	"readme": [
+		{
+			"kind": "text",
+			"text": "<div style=\"text-align: center;\" align=\"center\">\n\n# load-yml\n\nRead and parse a .yaml or .yml file\n\n[![NPM version][npm-image]][npm-url]\n[![Codacy Badge][codacy-image]][codacy-url]\n[![tree shaking][tree-shaking-image]][tree-shaking-url]\n![typescript][typescript-url]\n[![Test coverage][codecov-image]][codecov-url]\n[![npm download][download-image]][download-url]\n[![License][license-image]][license-url]\n\n[![Sonar][sonar-image]][sonar-url]\n\n</div>\n\n<div style=\"text-align: center; margin-bottom: 20px;\" align=\"center\">\n\n### **[Documentation](https://www.saqqdy.com/load-yml)** • **[Change Log](./CHANGELOG.md)**\n\n</div>\n\n## Installing\n\n"
+		},
+		{
+			"kind": "code",
+			"text": "```bash\n# use pnpm\n$ pnpm install load-yml\n\n# use npm\n$ npm install load-yml --save\n\n# use yarn\n$ yarn add load-yml\n```"
+		},
+		{
+			"kind": "text",
+			"text": "\n\n## Usage\n\n1. use "
+		},
+		{
+			"kind": "code",
+			"text": "`load-yml`"
+		},
+		{
+			"kind": "text",
+			"text": " in async mode\n\n"
+		},
+		{
+			"kind": "code",
+			"text": "```js\nimport { loadYml } from 'load-yml'\n\nloadYml().then(path => {\n  console.log('result is: ', path) // { \"name\": \"saqqdy\" }\n})\n```"
+		},
+		{
+			"kind": "text",
+			"text": "\n\n2. use "
+		},
+		{
+			"kind": "code",
+			"text": "`load-yml`"
+		},
+		{
+			"kind": "text",
+			"text": " in sync mode\n\n"
+		},
+		{
+			"kind": "code",
+			"text": "```js\nimport { loadYmlSync } from 'load-yml'\n\nconsole.log('result is: ', loadYmlSync()) // { \"name\": \"saqqdy\" }\n```"
+		},
+		{
+			"kind": "text",
+			"text": "\n\n## Support & Issues\n\nPlease open an issue [here](https://github.com/saqqdy/load-yml/issues).\n\n## License\n\n[MIT](LICENSE)\n\n[npm-image]: https://img.shields.io/npm/v/load-yml.svg?style=flat-square\n[npm-url]: https://npmjs.org/package/load-yml\n[codacy-image]: https://app.codacy.com/project/badge/Grade/f70d4880e4ad4f40aa970eb9ee9d0696\n[codacy-url]: https://www.codacy.com/gh/saqqdy/load-yml/dashboard?utm_source=github.com&utm_medium=referral&utm_content=saqqdy/load-yml&utm_campaign=Badge_Grade\n[tree-shaking-image]: https://badgen.net/bundlephobia/tree-shaking/load-yml\n[tree-shaking-url]: https://bundlephobia.com/package/load-yml\n[typescript-url]: https://badgen.net/badge/icon/typescript?icon=typescript&label\n[codecov-image]: https://img.shields.io/codecov/c/github/saqqdy/load-yml.svg?style=flat-square\n[codecov-url]: https://codecov.io/github/saqqdy/load-yml?branch=master\n[download-image]: https://img.shields.io/npm/dm/load-yml.svg?style=flat-square\n[download-url]: https://npmjs.org/package/load-yml\n[license-image]: https://img.shields.io/badge/License-MIT-blue.svg\n[license-url]: LICENSE\n[sonar-image]: https://sonarcloud.io/api/project_badges/quality_gate?project=saqqdy_load-yml\n[sonar-url]: https://sonarcloud.io/dashboard?id=saqqdy_load-yml"
+		}
+	],
+	"symbolIdMap": {
+		"0": {
+			"sourceFileName": "src/index.ts",
+			"qualifiedName": ""
+		},
+		"1": {
+			"sourceFileName": "src/index.ts",
+			"qualifiedName": "parseYml"
+		},
+		"2": {
+			"sourceFileName": "src/index.ts",
+			"qualifiedName": "parseYml"
+		},
+		"3": {
+			"sourceFileName": "src/index.ts",
+			"qualifiedName": "data"
+		},
+		"4": {
+			"sourceFileName": "src/index.ts",
+			"qualifiedName": "options"
+		},
+		"5": {
+			"sourceFileName": "src/index.ts",
+			"qualifiedName": "stringifyYml"
+		},
+		"6": {
+			"sourceFileName": "src/index.ts",
+			"qualifiedName": "stringifyYml"
+		},
+		"7": {
+			"sourceFileName": "src/index.ts",
+			"qualifiedName": "T"
+		},
+		"8": {
+			"sourceFileName": "src/index.ts",
+			"qualifiedName": "data"
+		},
+		"9": {
+			"sourceFileName": "src/index.ts",
+			"qualifiedName": "options"
+		},
+		"10": {
+			"sourceFileName": "src/index.ts",
+			"qualifiedName": "loadYml"
+		},
+		"11": {
+			"sourceFileName": "src/index.ts",
+			"qualifiedName": "loadYml"
+		},
+		"12": {
+			"sourceFileName": "src/index.ts",
+			"qualifiedName": "path"
+		},
+		"13": {
+			"sourceFileName": "src/index.ts",
+			"qualifiedName": "loadYmlSync"
+		},
+		"14": {
+			"sourceFileName": "src/index.ts",
+			"qualifiedName": "loadYmlSync"
+		},
+		"15": {
+			"sourceFileName": "src/index.ts",
+			"qualifiedName": "path"
+		},
+		"16": {
+			"sourceFileName": "src/index.ts",
+			"qualifiedName": "version"
+		}
+	}
+}
